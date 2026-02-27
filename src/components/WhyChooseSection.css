@@ -1,0 +1,49 @@
+.why {
+  display: flex;
+  gap: 40px;
+  padding: 80px 10%;
+  background: #f5f7f6;
+  align-items: center;
+}
+
+.why-left {
+  flex: 1;
+}
+
+.tag {
+  color: #1bbf73;
+  font-weight: 600;
+}
+
+.why-left h2 {
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.desc {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  font-size: 18px;
+}
+
+.why-right {
+  flex: 1;
+}
+
+.why-right img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .why {
+    flex-direction: column;
+    text-align: center;
+  }
+}

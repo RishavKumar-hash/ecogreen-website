@@ -1,0 +1,66 @@
+.enquiry {
+  display: flex;
+  min-height: 500px;
+}
+
+.enquiry-left {
+  flex: 1;
+}
+
+.enquiry-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.enquiry-right {
+  flex: 1;
+  background: #f5f5f5;
+  padding: 60px;
+}
+
+.tag {
+  color: #1abc9c;
+  font-weight: bold;
+}
+
+.enquiry-right h2 {
+  margin-bottom: 20px;
+}
+
+.form .row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+
+textarea {
+  height: 100px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #1abc9c;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .enquiry {
+    flex-direction: column;
+  }
+}

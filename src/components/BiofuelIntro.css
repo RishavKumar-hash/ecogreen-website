@@ -1,0 +1,54 @@
+.biofuel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  background: #f8f9fa;
+  gap: 40px;
+}
+
+.biofuel-left {
+  flex: 1;
+}
+
+.biofuel-left h4 {
+  color: #2bb673;
+  margin-bottom: 10px;
+}
+
+.biofuel-left h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.biofuel-left p {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.biofuel-left ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.biofuel-left li {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.biofuel-left button {
+  padding: 12px 28px;
+  background: #2bb673;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.biofuel-right img {
+  width: 100%;
+  border-radius: 20px;
+}
